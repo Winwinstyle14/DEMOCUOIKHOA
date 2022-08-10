@@ -1,0 +1,64 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-animal-pet-background-material-image_164004.jpg) top center / cover no-repeat;
+    font-family: "Roboto", sans-serif;
+  } */
+
+.login-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.login-container div.hero-content{
+    text-align: center;
+}
+.hero-content h1 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(143, 28, 28);
+}
+.login-form{
+text-align: center;
+width: 400px;
+margin: 0 auto;
+}
+.login-form input{
+  width: 100%;
+  padding: 32px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+.login-form .login-action a:first-child{
+  float: right;
+}
+.login-form .login-action .btn-login{
+    width: 100%;
+    margin: 12px 0;
+    background-color: rgb(143, 28, 28);
+    color: white;
+    height: 48px;
+    font-size: 18px;
+    border: none;
+}
+.login-form .login-action .btn-login:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.error-message{
+  color: red;
+}
+.checkuser,
+.valid{
+  display: none;
+}
+
+ 
+  
+ 

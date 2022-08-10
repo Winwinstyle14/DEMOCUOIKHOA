@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAYMENT</title>
+    <link rel="stylesheet" href="./assets/payment.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <div class="payment-info">
+          <div class="payment-header">
+            <a href="index.html"
+              ><img src="./image/logo-new2.png" alt="" class="header-logo"
+            /></a>
+            <h3>Thông tin giao hàng</h3>
+            <span
+              >Bạn đã có tài khoản? <a href="login.html">Đăng nhập </a
+              ><a href="cart.html">Quay về giỏ hàng</a></span
+            >
+          </div>
+          <div class="payment-f">
+            <form class="payment_form">
+              <div class="field">
+                <label for="name">Họ và tên</label>
+                <input type="text" placeholder="Nhập họ và tên!" class="name" />
+              </div>
+              <div class="field">
+                <div class="field-2">
+                  <div class="field-left">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      placeholder="Nhập email để nhận thông báo!"
+                      class="email"
+                    />
+                  </div>
+                  <div class="field-right">
+                    <label for="tel">Số điện thoại</label>
+                    <input
+                      type="text"
+                      placeholder="Nhập số điện thoại nhận hàng"
+                      class="tel"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="field">
+                <label for="address">Địa chỉ</label>
+                <input
+                  type="text"
+                  placeholder="Số nhà, đường,..."
+                  class="address"
+                />
+              </div>
+              <div class="field">
+                <label for="message">Lời nhắn</label>
+                <textarea placeholder="Ghi chú!" class="message"></textarea>
+              </div>
+              <div class="field selection">
+                <select
+                  name="calc_shipping_provinces"
+                  required=""
+                  class="city"
+                  id="city"
+                >
+                  <option value="">Tỉnh / Thành phố</option>
+                </select>
+                <select
+                  name="calc_shipping_district"
+                  required=""
+                  class="district"
+                  id="district"
+                >
+                  <option value="">Quận / Huyện</option>
+                </select>
+                <input
+                  class="billing_address_1"
+                  name=""
+                  type="hidden"
+                  value=""
+                />
+                <input
+                  class="billing_address_2"
+                  name=""
+                  type="hidden"
+                  value=""
+                />
+              </div>
+              <h3>Phương thức thanh toán</h3>
+              <div class="field">
+                <div class="field-2">
+                  <div class="field-left-1">
+                    <input
+                      type="radio"
+                      name="method"
+                      id="payment_card"
+                      value="code"
+                    />
+                  </div>
+                  <div class="field-right-1">
+                    <label for="">Thanh toán khi nhận hàng</label>
+                  </div>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-2">
+                  <div class="field-left-1">
+                    <input
+                      type="radio"
+                      name="method"
+                      id="payment_card"
+                      value="card"
+                    />
+                  </div>
+                  <div class="field-right-1">
+                    <label for="">Thanh toán qua thẻ tín dụng</label>
+                  </div>
+                </div>
+              </div>
+              <div class="payment-action">
+                <button type="submit" class="btn-submit-payment">
+                  Hoàn tất đơn hàng
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="slide-bar">
+          <div class="product-list underline">
+            <!-- <div class="product-item">
+                        <img src="http://smakerclothing.com/upload/hinhthem/img5986-32273184_300x300.jpg" alt="">
+                        <div class="product-info">
+                            <p class="product-name">Bazic Tee v2.0 / Green</p>
+                            <p class="product-type">Loại:Sữa</p>
+                            <p class="product-amount">Số lượng:3</p>
+                        </div>
+                        <h3>180.000VNĐ</h3>
+                    </div>
+                    <div class="product-item">
+                        <img src="http://smakerclothing.com/upload/hinhthem/img5986-32273184_300x300.jpg" alt="">
+                        <div class="product-info">
+                            <p class="product-name">Bazic Tee v2.0 / Green</p>
+                            <p class="product-type">Loại:Sữa</p>
+                            <p class="product-amount">Số lượng:3</p>
+                        </div>
+                        <h3>180.000 VNĐ</h3>
+                    </div>
+                    <div class="product-item">
+                        <img src="http://smakerclothing.com/upload/hinhthem/img5986-32273184_300x300.jpg" alt="">
+                        <div class="product-info">
+                            <p class="product-name">Bazic Tee v2.0 / Green</p>
+                            <p class="product-type">Loại:Sữa</p>
+                            <p class="product-amount">Số lượng:3</p>
+                        </div>
+                        <h3>180.000VNĐ</h3>
+                    </div> -->
+          </div>
+          <form action="" class="discount-form underline">
+            <h3>Nhập mã giảm giá</h3>
+            <div class="discount-form-1">
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Nhập mã giảm giá"
+                class="discount-code"
+              />
+              <button type="submit" class="btn-apply">ÁP DỤNG</button>
+            </div>
+            <!-- <p class="">Áp dụng mã giảm giá thành công</p> -->
+          </form>
+          <div class="billing-amount underline">
+            <div class="billing-cost">
+              <h3>Tạm tính:</h3>
+              <span class="temporary-amount">0 đ</span>
+            </div>
+            <div class="billing-cost">
+              <h3>Giảm giá:</h3>
+              <span class="discount-amount">0 đ</span>
+            </div>
+            <div class="billing-cost">
+              <h3>Vận chuyển:</h3>
+              <span class="transport-amount">30000 đ</span>
+            </div>
+          </div>
+          <div class="billing-total">
+            <h1>Tổng cộng:</h1>
+            <span class="billing-final">0 đ</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/vietblogdao/js/districts.min.js"></script>
+  <script src="./js/address.js"></script>
+  <script src="./js/total.js"></script>
+</html>

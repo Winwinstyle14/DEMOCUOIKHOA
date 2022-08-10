@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Peralta&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Peralta&family=Poppins:wght@300;400;700&display=swap%27');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather',sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+main {
+    margin-top: 86px;
+    min-height: 800px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.payment-info{
+    width: 60%;
+    padding-right: 24px;
+    
+}
+.payment-info .payment-header{
+    margin-left : 12px;
+    margin-bottom: 12px;
+}
+.payment-header .header-logo{
+    width: 196px;
+    height: 66px;
+}
+.payment-header span a{
+    color: rgb(143,28,28)
+}
+.payment-info .payment-f{
+    padding:4px
+}
+.payment-info .payment_form{
+    display: block;
+}
+.payment_form .field{
+    padding: 4px;
+}
+.payment_form .field .field-2{
+    display: flex;
+}
+.field-2 .field-left{
+    width: 65%;
+    margin: 0 8px 0 0;
+}
+.field-2 .field-right{
+    width: 35%;
+    margin: 0 0 0 8px;
+}
+.payment-info .payment_form .name, .field-left .email, .field-right .tel, .payment_form .field .address{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+}
+.payment_form .field .message{
+    width: 100%;
+    height: 90px;
+    padding: 8px;
+    margin-top: 4px;
+}
+.payment_form .selection{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.payment_form .field .city, .payment_form .field .district{
+    width: 200px;
+    height: 40px;
+}
+.field-2 .field-left-1{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    margin: 0 8px 0 0;
+
+}
+.field-2 .field-right-1{
+    width: 85%;
+    margin: 0 0 0 8px;
+}
+.payment-action .btn-submit-payment{
+    margin-top: 32px;
+    float: right;
+    padding: 16px 24px;
+    background-color: rgb(143, 28, 28);
+    transition: all 0.3s ease;
+    color: white;
+    border: none;
+}
+.payment-action .btn-submit-payment:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.slide-bar{
+    padding-left: 16px;
+    width: 40%;
+    border-left: 1px solid #ccc ;
+}
+.underline{
+    border-bottom: 2px solid rgb(143, 28, 28);
+    padding-bottom: 8px;
+
+}
+.product-list{}
+.product-list .product-item{
+    padding: 12px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+.slide-bar .product-item img{
+    height: 60px;
+} 
+.product-list .product-info{
+    min-width: 280px;
+    padding: 0 8px;
+}
+.slide-bar .product-list h3{
+    display: flex;
+    align-items: center;
+}
+.slide-bar .billing-amount{
+    padding: 24px 0;
+}
+.slide-bar .billing-amount .billing-cost{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 12px
+}
+.billing-total{
+    padding: 24px 0;
+}
+.billing-total .billing-final{
+    font-size: 54px;
+    color: rgb(143, 28, 28);
+}
+.discount-form{
+    padding: 24px 0;
+}
+.discount-form h3{
+    padding-bottom: 12px;
+}
+.discount-form .discount-form-1 input{
+    width: 80%;
+    padding: 8px 12px;
+}
+.discount-form .discount-form-1 .btn-apply{
+    padding: 8px 12px;
+    border: 1px solid rgb(143, 28, 28);
+}
+.discount-form .discount-form-1 .btn-apply:hover{
+    background-color: rgb(143, 28, 28);
+    color: white;
+    cursor: pointer;
+}
+.hide {
+	display: none !important;
+}

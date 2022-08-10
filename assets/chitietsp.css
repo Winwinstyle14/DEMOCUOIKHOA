@@ -1,0 +1,51 @@
+.product-detail{
+    margin-top: 50px;
+}
+.product_ct1{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+.hero-content {
+    display: flex;
+    justify-content: center;
+    color: rgb(143, 28, 28);
+}
+.product-img{
+    width: 400px;
+    height: 400px;
+}
+
+.product-infomation{
+    width: 600px
+}
+
+.pro-price{
+    color: rgb(143, 28, 28);
+    font-size:20px;
+    font-weight:600;
+
+}
+
+.quantity-area{
+display: flex;
+width: 100px;
+}
+.change-quantity-btn{
+    width: 50px;
+}
+.underline{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.hero-btn-full{
+    width: 150px;
+    height:50px;
+    background-color:rgb(143, 28, 28);
+    color:#fff;
+    border: none;
+}
+.hero-btn-full:hover{
+ background-color:#c0392b ;
+}

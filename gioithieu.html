@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/base.css" />
+    <link rel="stylesheet" href="assets/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Nhóm 3</title>
+  </head>
+  <style>
+    h1 {
+      color: #c0392b;
+    }
+
+    p {
+      margin-top: 20px;
+    }
+
+    .indam {
+      font-weight: 600;
+      font-size: 18px;
+    }
+  </style>
+
+  <body>
+    <div id="main">
+      <!-- header -->
+      <header class="header">
+        <div class="header2">
+          <div class="grid">
+            <div class="header__navbar">
+              <ul class="header__navbar_list">
+                <li class="header__navbar_item">
+                  Mega Pet Store - Siêu thị phụ kiện & Spa chó mèo Hà Nội
+                </li>
+              </ul>
+              <ul class="header__navbar_list">
+                <li class="header__navbar_item">
+                  134 Trương Định, Hai Bà Trưng, Hà Nội
+                </li>
+                <li class="header__navbar_item">
+                  <a href="signup.html" class="DKDN_link"
+                    ><span class="btn__DKDN">Đăng ký /</span>
+                  </a>
+                  <a href="login.html" class="DKDN_link"
+                    ><span class="btn__DN">Đăng Nhâp</span>
+                  </a>
+                  <span class="account_name">HIHIHI</span>
+                  <a href="login.html" class="DKDN_link"
+                    ><span class="btn__DX">/ Đăng Xuất</span>
+                  </a>
+                </li>
+
+                <li class="header__navbar_item">
+                  <a
+                    href="https://www.facebook.com/haianh.t.99"
+                    target="_blank"
+                    class="icon_link"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    class="icon_link"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://twitter.com/?lang=vi"
+                    target="_blank"
+                    class="icon_link"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                  <a
+                    href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGpHHPpFmDcJtdpkzVqTClpRgCW"
+                    class="icon_link"
+                    target="_blank"
+                    ><i class="fa-solid fa-envelope"></i
+                  ></a>
+                  <a
+                    href="https://www.youtube.com/"
+                    class="icon_link"
+                    target="_blank"
+                    ><i class="fa-brands fa-youtube"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="header_with_search">
+              <div class="header_logo">
+                <a href="index.html">
+                  <img
+                    width="271"
+                    height="91"
+                    src="https://megapet.vn/wp-content/uploads/2019/10/logo-new2.png"
+                    class="header_logo_item"
+                    alt="logo"
+                  />
+                </a>
+              </div>
+              <div class="header_search">
+                <form id="header__search_form" class="header__search_form">
+                  <input type="text" placeholder="Tìm kiếm..." />
+                  <button class="header_search-btn" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="header_cart">
+                <a class="click_header">
+                  <i class="fa-solid fa-cart-shopping size"></i>
+                  <span>Giỏ hàng</span>
+                  <span class="header-cart-num">0</span>
+                  <!-- khong cos sp: header__cart_list_no_cart -->
+                  <div class="header__cart_list">
+                    <p class="text_cart">Chưa có sản phẩm nào trong giỏ hàng</p>
+
+                    <ul class="cart_list_item"></ul>
+
+                    <div class="border_bt_cart"></div>
+                    <span class="tong_gia">Tổng cộng :</span>
+                    <span class="tong_tien"> 0 VNĐ</span>
+                    <div class="border_bt_cart"></div>
+                    <button class="btn_cart_pd">Xem giỏ hàng</button>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="header_menubar">
+              <div class="border_top"></div>
+              <div class="menubar_content">
+                <ul class="menubar_list">
+                  <li class="menubar_item">
+                    <a href="index.html" class="menubar_link_a">TRANG CHỦ</a>
+                  </li>
+                  <li class="menubar_item">
+                    <a href="gioithieu.html" class="menubar_link_a"
+                      >GIỚI THIỆU</a
+                    >
+                  </li>
+                  <li class="menubar_item menubar_posi1">
+                    <a href="shopcun.html" class="menubar_link_a"
+                      >SHOP CÚN CƯNG
+                    </a>
+                  </li>
+                  <li class="menubar_item menubar_posi2">
+                    <a href="shopmeo.html" class="menubar_link_a"
+                      >SHOP MÈO CƯNG
+                    </a>
+                  </li>
+                  <li class="menubar_item">
+                    <a href="tintuc.html" class="menubar_link_a">TIN TỨC</a>
+                  </li>
+                  <li class="menubar_item">
+                    <a href="meovat.html" class="menubar_link_a">MẸO VẶT</a>
+                  </li>
+                  <li class="menubar_item">
+                    <a href="lienhe.html" class="menubar_link_a"> LIÊN HỆ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- body: before -->
+      <div class="body" style="margin-top: 50px">
+        <div class="grid">
+          <h1>CỬA HÀNG PHỤ KIỆN ĐỒ ĂN & SPA CHÓ MÈO - Mega Pet Store</h1>
+          <p class="indam">
+            Đồ ăn phụ kiện thú cưng và các phụ kiện tại khu vực Hai Bà Trưng,
+            Hoàng Mai Hà Nội
+          </p>
+          <p class="indam">
+            Spa và chăm sóc thú cưng tại khu vực Hai Bà Trưng, Hoàng Mai Hà Nội
+          </p>
+
+          <p>
+            Với nền tảng vững mạnh và đội ngũ nhân sự chuyên nghiệp, tư vấn
+            nhiệt tình. Mega Pet Store đã nhanh chóng phát triển, đến nay Mega
+            Pet Store đã và đang hợp tác đầu tư, tiếp thị và phân phối thành
+            công các mặt hàng kinh doanh về các phụ kiện chó mèo. Cung cấp sỉ và
+            lẻ các loại thức ăn, vật dụng: máng ăn, nhà ngủ, nệm lót, dây dẫn,
+            vòng cổ, quần áo, mỹ phẩm cho chó mèo…
+          </p>
+          <p>
+            – Spa và chăm sóc thú cưng tại khu vực Hai Bà Trưng, Hoàng Mai Hà
+            Nội.
+          </p>
+          <p>
+            Nhằm phát huy các lợi thế sẵn có, chúng tôi không ngừng nỗ lực, phấn
+            đấu trở thành một cửa hàng phân phối các mặt hàng chất lượng, hiện
+            đại, thẩm mỹ, tinh tế.
+          </p>
+          <p>
+            Luôn mang lại giá trị tốt nhất đến Quý Đối tác và Quý Khách hàng với
+            uy tín, chất lượng và trách nhiệm cao.
+          </p>
+          <p>
+            Chúng tôi rất mong tiếp tục nhận được sự hợp tác và ủng hộ Quý Đối
+            Tác, Quý Khách hàng trong thời gian tới.
+          </p>
+          <p>Kính chúc Quý vị sức khỏe, thành công!</p>
+          <p>
+            Mọi chi tiết xin vui lòng liên hệ Mega Pet Store 134 Trương Định, Hà
+            Nội
+          </p>
+        </div>
+      </div>
+      <!-- body: after -->
+
+      <!-- footer -->
+      <footer class="footer">
+        <div id="contact-note">
+          <div class="grid">
+            <div class="contact-text">
+              <i class="fa-solid fa-square-phone-flip"></i>
+              <h3>Hỗ trợ/ Mua hàng: <a href="">0981542102</a></h3>
+            </div>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="footer-section">
+            <div class="footer-section_content">
+              <div class="footer-section_content_item footer_width">
+                <h3 class="footer-title">Giới thiệu</h3>
+                <p>
+                  Mega Pet Store – Cửa hàng phụ kiện và spa chó mèo khu vực
+                  Hoàng Mai, Hai Bà Trưng Hà Nội
+                </p>
+              </div>
+              <div
+                class="footer-section_content_item footer_width"
+                style="margin-left: 30px"
+              >
+                <h3 class="footer-title">Liên kết</h3>
+                <a href="" style="color: black">Giới thiệu</a><br />
+                <a href="" style="color: black">Chính sách đổi trả</a><br />
+                <a href="" style="color: black">Chính sách bảo mật</a><br />
+                <a href="" style="color: black">Điều khoản dịch vụ</a><br />
+              </div>
+              <div class="footer-section_content_item footer_width">
+                <h3>Thông tin liên hệ</h3>
+                <div>
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i> 134 Trương Định,
+                    Hai Bà Trưng,Hà Nội
+                  </p>
+                  <p><i class="fa-solid fa-phone"></i> 0981542102</p>
+                  <p><i class="fa-solid fa-building"></i> Coming soon</p>
+                  <p><i class="fa-brands fa-telegram"></i> nhom3@gmail.com</p>
+                </div>
+              </div>
+              <div
+                class="footer-section_content_item footer_width"
+                style="margin-left: 30px"
+              >
+                <h3 class="footer-title">Follow us</h3>
+                <div>
+                  <a href="" style="color: black"
+                    ><i class="fa-brands fa-facebook-f"></i>
+                    https://www.facebook.com/</a
+                  ><br />
+                  <a href="" style="color: black"
+                    ><i class="fa-brands fa-instagram"></i>
+                    https://www.instagram.com/</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/class_chung.js"></script>
+  </body>
+</html>
